@@ -1,0 +1,74 @@
+.msp {}
+
+.msp .detail_sec01 {background:none;}
+.msp .detail_sec01::before {
+	height:55%; background:url("../images/detail/det_msp/sec01_bg.jpg") no-repeat center top;
+	background-size:cover;
+}
+
+.msp .detail_sec01::after {display:none;}
+.msp .detail_sec01 h1 {background:none; color:#fff;}
+.msp .detail_sec01 h1 span {color:#fff;}
+
+.msp .detail_sec01 .floating_txt p {color:#fff;}
+.detail_sec01 .floating_txt p::before {background:#fff;}
+.msp .detail_sec01 .floating_txt .txt_r {right:0; top:35.99vw;}
+.msp .detail_sec01 h2 {padding:5.72vw 0 0;}
+
+.msp .detail_sec02 img {box-shadow:4px 2px 26px #dadada;}
+
+.msp .hd_tit_s {}
+
+.msp .detail_sec04::before {display:none;}
+.msp .detail_sec04::after {display:none;}
+.msp .detail_sec04 .port_list ul li:nth-child(1) {margin-left:-13.0208vw;}
+.msp .detail_sec04 .port_list ul li:nth-child(2) {margin-top:-8.781vw; margin-right:-13.0208vw;}
+.msp .detail_sec04 .port_list ul li:nth-child(3) {margin-top:-42.968vw; margin-left:-14.0625vw;}
+
+.msp .detail_sec04 .port_list ul li img {
+	-webkit-box-shadow: 1.0vw 1.0vw 11.4vw 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 1.0vw 1.0vw 11.4vw 0px rgba(0,0,0,0.15);
+	box-shadow: 1.0vw 1.0vw 11.4vw 0px rgba(0,0,0,0.15);
+}
+
+
+
+
+.msp .detail_sec07::before {background-color:rgba(0, 0, 0, .6);}
+.msp .detail_sec07 .bg {background-image:url("../images/detail/det_msp/visual_talk.jpg");}
+
+.msp .typo_box.typo dl dt.ff_rix {font-weight:600;}
+.msp .typo_box.color dl.color1 dt {background:#E1261C; border:1px solid #E1261C;}
+.msp .typo_box.typo dl:last-child dd.fc_blk {margin-top:0;}
+
+@media (max-width: 1520px) {
+	.msp .detail_sec01::before {height:39vw;}
+	.msp .detail_sec01::after {top:38.3vw;}
+
+	.msp .detail_sec04::before,
+	.msp .detail_sec04::after,
+	.msp .detail_sec06::before,
+	.msp .detail_sec06::after {background:none;}
+}
+
+@media (max-width: 800px) {
+
+	.msp .detail_sec01 h1 {padding-top:0;}
+
+	.msp .hd_tit_s {}
+	.msp .detail_sec01 {}
+	.msp .detail_sec01::before {background-size:100%;}
+	.msp .detail_sec01 h2 {padding:10.72vw 0 0;}
+	.msp .detail_sec01 h2 img {width:50%; height:auto;}
+
+	.msp .detail_sec04::before,
+	.msp .detail_sec04::after,
+	.msp .detail_sec06::before,
+	.msp .detail_sec06::after {background:none;}
+}
+
+
+
+.msp .display_box .box .displaybox .pc_box .rolling {background-image:url("../images/detail/det_msp/pc_det.jpg");}
+.msp .display_box .box .displaybox .tablet_box .rolling {background-image:url("../images/detail/det_msp/pc_det.jpg");}
+.msp .display_box .box .displaybox .mobile_box .rolling {background-image:url("../images/detail/det_msp/mobile_det.html");}

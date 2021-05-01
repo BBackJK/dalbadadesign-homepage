@@ -1,0 +1,112 @@
+/* IT Education R&D Cooperative */
+.ewp {}
+
+
+
+.ewp {} .hd_desc span {line-height:1.6;}
+
+.ewp .detail_sec01 {background:none;}
+.ewp .detail_sec01::before {
+	height:68%; background:url("../images/detail/det_ewp/sec01_bg.jpg") no-repeat center top;
+	background-size:cover;
+}
+.ewp .detail_sec01 h1 {background:none; padding:4.7vw 0 0; color:#fff;}
+.ewp .detail_sec01 h1 span {color:#fff;}
+.ewp .detail_sec01::after {background:none;}
+
+
+
+/* 테블렛, 모니터 이미지 
+.ewp .detail_sec01 .display_box .box .displaybox .pc_box .rolling {background-image:url("../images/detail/det_ewp/pc_det.jpg");}
+.ewp .detail_sec01 .display_box .box .displaybox .tablet_box .rolling {background-image:url("../images/detail/det_ewp/pc_det.jpg");}
+.ewp .detail_sec01 .display_box .box .displaybox .mobile_box .rolling {background-image:url("../images/detail/det_ewp/mobile_det.jpg");}
+*/
+
+
+
+
+
+
+.ewp .detail_sec01 .floating_txt .txt_l {top:30vw;}
+.ewp .detail_sec01 .floating_txt p {color:#fff;}
+.ewp .detail_sec01 .floating_txt p::before {background:#fff;}
+
+
+
+
+
+
+.ewp .detail_sec03 {background:#626469;}
+
+
+.ewp .bg_626469 {background:#626469;}
+
+.ewp .detail_sec03 .bg {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+
+
+.ewp .detail_sec05 .hd_desc {color:#000;}
+.ewp .detail_sec05 .hd_desc::before {background:#000;}
+.ewp .detail_sec05 .hd_desc span {color:#000;}
+
+
+.ewp .detail_sec06::before {
+	content:""; position:absolute; top:0; left:0; width:100%; height:100%; 
+	background:url("../images/detail/det_ewp/ico_txt_c.png") no-repeat center center; background-size:70% auto; z-index:-1;
+}
+.ewp .detail_sec06 .port_list ul li img {box-shadow:4px 2px 26px #dadada;}
+
+.ewp .detail_sec07::before {background-color:rgba(0, 0, 0, .6);}
+.ewp .detail_sec07 .bg {background-image:url("../images/detail/det_msp/visual_talk.jpg");}
+
+.ewp .typo_box.typo dl:last-child dd.fc_blk {margin-top:0;}
+.ewp .typo_box.color dl.color1 dt {background:#438FD7; border:1px solid #438FD7;}
+.ewp .typo_box.color dl.color2 dt {background:#222222; border:1px solid #222222;}
+.ewp .typo_box.color dl.color3 dt {background:#666666; border:1px solid #666666;}
+.ewp .typo_box.color dl.color4 dt {background:#3D4250; border:1px solid #3D4250;}
+.ewp .typo_box.color dl.color5 dt {background:#FFFFFF; border:1px solid #FFFFFF;}
+
+
+
+
+.ewp .detail_sec_img {position:relative;}
+.ewp .detail_sec_img h3 {position:absolute; top:0; left:0;}
+.ewp .detail_sec_img .hd_tit_s {
+    color: #222;
+    font-size: 1.458vw;
+    font-weight: 700;
+    text-align: left;
+    padding:8.3vw 0 0 10.416vw;
+}
+.ewp .detail_sec_img img {width:100%; height:auto;}
+
+@media (max-width: 1520px) {
+	.ewp .detail_sec04::before,
+	.ewp .detail_sec04::after,
+	.ewp .detail_sec06::before,
+	.ewp .detail_sec06::after {background:none;}
+
+	.ewp .detail_sec01 .floating_txt {display:none;}
+
+
+}
+
+@media (max-width: 800px) {
+	.ewp .detail_sec01::before {background-size:contain;}
+	.ewp .detail_sec01 h2 img {width:calc(100% - 50%); height:auto;}
+
+	.ewp .detail_sec04::before,
+	.ewp .detail_sec04::after,
+	.ewp .detail_sec06::before,
+	.ewp .detail_sec06::after {background:none;}
+
+
+}
+
+
+
