@@ -101,7 +101,7 @@
 		bgPosition:"50% 50%",
 		bgRepeat:"no-repeat",
 		bgSize:"36%",
-		bgImage:'url("/images/chevron-up.svg")'
+		bgImage:'url("http://iousolution.co.kr/images/chevron-up.svg")'
 	},
 	o.fn.scrollToTop=function(t){
 		return this.each(function(){

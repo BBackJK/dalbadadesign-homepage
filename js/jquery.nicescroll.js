@@ -1852,7 +1852,8 @@
       return self;
     }
    
-    function _modernWheelEvent(dom,name,fn,bubble) {      
+    function _modernWheelEvent(dom,name,fn,bubble) {     
+      bubble = { passive: false, capture: bubble }; 
       self._bind(dom,name,function(e){
         var  e = (e) ? e : window.event;
         var event = {
@@ -1879,7 +1880,7 @@
         }
 
         return fn.call(dom,event);      
-      },bubble);
+      },{ passive: false, capture: bubble });
     };     
    
     this._bind = function(el,name,fn,bubble) {  // primitive bind
